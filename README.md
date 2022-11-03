@@ -70,6 +70,16 @@ npx prisma generate
 
 ## Web
 
+Create the project
+```sh
+npx create-next-app@latest --use-npm
+```
+
+Run the project
+```sh
+npm run dev
+```
+
 Install dependencies
 ```sh
 
@@ -83,14 +93,21 @@ Install development dependencies
 
 ## Mobile
 
-Install Expo dependencies
+Create the project
 ```sh
+npx create-expo-app mobile
+```
+- Rename the App.js t App.tsx
+- Create the tsconfig.json file
 
+Start the project
+```sh
+npx expo start
 ```
 
 Install dependencies
 ```sh
-
+npm install native-base
 ```
 
 Install development dependencies
@@ -98,7 +115,16 @@ Install development dependencies
 
 ```
 
+Install Expo dependencies
+```sh
+npx expo install react-native-svg@12.1.1
+npx expo install react-native-safe-area-context@3.3.2
+npx expo install expo-font @expo-google-fonts/roboto
+```
 
-## VS Cpde Extensions
+## VS Code Extensions
 
 - [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
+
+
+- [Native Base](https://nativebase.io/)
