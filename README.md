@@ -11,6 +11,8 @@ Install dependencies
 npm i fastify
 npm i @fastify/cors
 npm i @prisma/client
+npm i zod
+npm i short-unique-id
 ```
 
 Install development dependencies
@@ -68,6 +70,16 @@ Generate the ERD chart
 npx prisma generate
 ```
 
+Generade the seed (dummy data)
+```sh
+npx prisma db seed
+```
+
+Test HTTP routes:
+- [Postman]()
+- [Insomnia]()
+- [Hoppscotch]()
+
 ## Web
 
 Create the project
@@ -82,14 +94,18 @@ npm run dev
 
 Install dependencies
 ```sh
-
+npm i axios
 ```
 
 Install development dependencies
 ```sh
-
+npm install -D tailwindcss postcss autoprefixer
 ```
 
+Create the Tailwind configuration file
+```sh
+npx tailwindcss init -p
+```
 
 ## Mobile
 
@@ -128,3 +144,7 @@ npx expo install expo-font @expo-google-fonts/roboto
 
 
 - [Native Base](https://nativebase.io/)
+
+
+## Layout
+- [Figma](https://www.figma.com/file/Ld9q6mt8Rsg7982IzL5DK6/Bolão-da-Copa?node-id=0%3A1)
