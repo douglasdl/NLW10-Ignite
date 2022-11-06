@@ -124,11 +124,12 @@ npx expo start
 Install dependencies
 ```sh
 npm install native-base
+npm install --save phosphor-react-native
 ```
 
 Install development dependencies
 ```sh
-
+npm i react-native-svg-transformer
 ```
 
 Install Expo dependencies
@@ -136,6 +137,14 @@ Install Expo dependencies
 npx expo install react-native-svg@12.1.1
 npx expo install react-native-safe-area-context@3.3.2
 npx expo install expo-font @expo-google-fonts/roboto
+npx expo install expo-auth-session expo-random
+npx expo install expo-web-browser
+```
+
+Log to your Expo account
+```sh
+npx expo whoami
+npx expo login
 ```
 
 ## VS Code Extensions
@@ -144,7 +153,10 @@ npx expo install expo-font @expo-google-fonts/roboto
 
 
 - [Native Base](https://nativebase.io/)
-
+- [React Native SVG Transformer](https://github.com/kristerkari/react-native-svg-transformer)
+- [Auth Session](https://docs.expo.dev/versions/latest/sdk/auth-session/)
+- [Web Browser](https://docs.expo.dev/versions/v46.0.0/sdk/webbrowser/)
+- [Google Cloud Auth](https://console.cloud.google.com/)
 
 ## Layout
 - [Figma](https://www.figma.com/file/Ld9q6mt8Rsg7982IzL5DK6/Bolão-da-Copa?node-id=0%3A1)
